@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 .page{
     width: 100vw;
@@ -24,4 +28,23 @@ body{
     justify-content: space-around;
     width: 60vw;
     list-style: none;
+}
+#heading{
+    padding-bottom: 100px;
+}
+
+.output{
+    border-radius: 15%;
+    border-color: slateblue;
+    border-width: 4px;
+    border-style: solid;
+    
+    width: 15vw;
+    height: vh;
+}
+.output h3{
+    font-size: 1.4em;
+}
+.output * {
+    text-align: center;
 }
