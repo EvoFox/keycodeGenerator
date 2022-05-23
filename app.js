@@ -12,6 +12,11 @@ window.addEventListener("keydown", (e) => {
     const history = document.getElementById("history-table");
 
     let row = history.insertRow(0);
+    row.setAttribute("id", "histRows")
+
+    if (document.querySelectorAll("#histRows").length > 15) {
+        document.querySelectorAll("#histRows")[15].remove()
+    }
 
     let histCode = row.insertCell(0);
     let histKey = row.insertCell(1);
@@ -27,4 +32,5 @@ window.addEventListener("keydown", (e) => {
     code.textContent = e.code;
     key.textContent = e.key;
     which.textContent = e.which;
+
 });
