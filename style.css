@@ -40,7 +40,7 @@ body{
     border-style: solid;
     
     width: 15vw;
-    height: vh;
+    
 }
 .output h3{
     font-size: 1.4em;
@@ -48,3 +48,25 @@ body{
 .output * {
     text-align: center;
 }
+.history{
+    margin-top: 80px;
+    padding-bottom: 5vh;
+    width: 50vw;
+    height: auto;
+
+    text-align: center;
+
+    border-radius: 15%;
+    border-color: slateblue;
+    border-width: 4px;
+    border-style: solid;
+    
+}
+.history h3{
+    padding-left: 6vw;
+}
+
+#table-column th{
+    width: 15vw;
+}
+
