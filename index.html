@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keycode Generator</title>
     <script src="./app.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1 class="heading">Press a Key!</h1>
-    <ul>
-        <li id="code"></li>
-        <li id="key"></li>
-        <li id="which"></li>
-    </ul>
+    <div id="first-page" class="page">
+        <h1 class="welcome">Javascript Keycode Generator</h1>
+        <h2 class="welcome">Press any key to reveal its information</h2>
+    </div>
+
+    <div id="second-page" class="page">
+        <h1 id="heading">Press a Key!</h1>
+        <ul id="list">
+            <li>e.Code</li>
+            <li>e.Key</li>
+            <li>e.which</li>
+        </ul>
+        <ul id="list">
+            <li id="code"></li>
+            <li id="key"></li>
+            <li id="which"></li>
+        </ul>
+
+    </div>
+
+
 </body>
 </html>
